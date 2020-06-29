@@ -1,0 +1,7 @@
+# Karaf fearture BouncyCastle
+
+Externsion to karaf which adds BouncyCastle bundles to karaf features.
+
+## Features:
+
+- bouncycastle 1.61
