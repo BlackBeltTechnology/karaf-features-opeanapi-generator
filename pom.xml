@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>hu.blackbelt.karaf.features</groupId>
-    <version>1.0.3</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <artifactId>openapi-generator</artifactId>
     <name>OpenAPI karaf feature project</name>
@@ -88,7 +88,20 @@
             </plugins>
         </pluginManagement>
     </build>
-    
+    <profiles>
+        <profile>
+            <activation>
+                <property>
+                    <name>github_release</name>
+                    <value>!true</value>
+                </property>
+            </activation>
+            <modules>
+                <module>features</module>
+                <module>kar</module>
+            </modules>
+        </profile>
+
         <profile>
             <id>release-github</id>
             <build>
