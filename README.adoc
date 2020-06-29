@@ -1,7 +1,3 @@
-# Karaf fearture BouncyCastle
+# Karaf feature OpenAPI generator
+Externsion to karaf which adds OpenAPI generator bundles to karaf features.
 
-Externsion to karaf which adds BouncyCastle bundles to karaf features.
-
-## Features:
-
-- bouncycastle 1.61
