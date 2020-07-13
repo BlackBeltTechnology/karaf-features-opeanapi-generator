@@ -12,8 +12,7 @@
     <properties>
         <karaf-version>4.2.5</karaf-version>
         <apache-commons-karaf-features-version>1.0.5</apache-commons-karaf-features-version>
-        <google-karaf-features-version>1.0.4</google-karaf-features-version>
-        <cxf-version>3.3.4</cxf-version>
+        <cxf-version>3.3.5</cxf-version>
     </properties>
 
     <description>OpenAPI Generator Karaf features</description>

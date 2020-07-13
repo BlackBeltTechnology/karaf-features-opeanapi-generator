@@ -77,6 +77,7 @@
                                 <feature>swagger2-parser</feature>
                                 <feature>openapi-v3-parser</feature>
                                 <feature>openapi-v3-generator</feature>
+                                <feature>openapi-generator</feature>
                             </features>
                         </configuration>
                     </execution>

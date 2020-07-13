@@ -18,7 +18,8 @@
         <bundle>mvn:hu.blackbelt.bundles.swagger-parser-v3/io.swagger.parser.v3/2.0.19_2</bundle>
     </feature>
 
-    <feature name="openapi-generator" version="4.1.1" description="OpenAPI Generator">
+    <feature name="openapi-generator" version="4.3.1" description="OpenAPI Generator">
+        <feature>cxf-jackson</feature>
         <feature>cxf-rs-description-swagger2</feature>
         <feature>cxf-rs-description-openapi-v3</feature>
         <feature>swagger2-parser</feature>
@@ -27,7 +28,7 @@
         <bundle>mvn:com.github.ben-manes.caffeine/caffeine/2.8.4</bundle>
         <bundle>mvn:com.github.jknack/handlebars/4.2.0</bundle>
         <bundle>mvn:com.samskivert/jmustache/1.15</bundle>
-        <bundle>mvn:hu.blackbelt.bundles.openapitools.openapi-generator/org.openapitools.openapi-generator/4.3.1_2</bundle>
+        <bundle>mvn:hu.blackbelt.bundles.openapitools.openapi-generator/org.openapitools.openapi-generator/4.3.1_3</bundle>
     </feature>
     
 </features>
